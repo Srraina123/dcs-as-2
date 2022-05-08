@@ -1,4 +1,3 @@
-java Server
-
-
-java Client
+export MPJ_HOME=/home/downloads/as-2/mpj-v0_44
+javac -cp .:$MPJ_HOME/lib/mpj.jar mpiprogram.java
+$MPJ_HOME/bin/mpjrun.sh -np 4 mpiprogram
